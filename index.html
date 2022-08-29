@@ -1,186 +1,258 @@
 <!DOCTYPE html>
 <html lang="ja">
-
- <head>
+<head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Sneakers</title>
-  <link rel="stylesheet" href="css/ress.min.css">
-  <link rel="shortcut icon" href="js/favicon.ico">
-  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+  <title>キラメキカード</title>
+  <link rel="stylesheet" href="assets/ress/ress.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-  <script src="js/main.js"></script>
-  
- </head>
+  <script src="https://kit.fontawesome.com/ce247e90fe.js" crossorigin="anonymous"></script>
+ 
+</head>
 
- <body>
+<body>
   <!--ヘッダーここから-->
-  <header id="header">
-     <h1 id="title">
-       <a href="index.html"><img src="img/logo.svg" alt="Sneakers"></a>
-     </h1>
-       
-       <nav id="navi">
-           <ul id="navi-menu">
-              <li class="menu"><a href="#pick-up">PICK UP</a></li>
-              <li class="menu"><a href="#feature">FEATURE</a></li>
-              <li class="menu"><a href="#contact">CONTACT</a></li>
-           </ul>
-           <ul id="navi-sns">
-              <li class="sns-menu"><a href="https://twitter.com/">Twitter</a></li>
-              <li class="sns-menu"><a href="https://www.facebook.com/">facebook</a></li>
-              <li class="sns-menu"><a href="https://www.instagram.com/">instagram</a></li>
-           </ul>
-        </nav>   
-       
-       <div class="hamburger">
-          <span></span>
-          <span></span>
-          <span></span>
-       </div>
-       
-       <div id="mask"></div>
-   </header>
-  <!--ヘッダーここまで-->      
-
-  <main>
-   <!--メイン動画-->
-     <div id=main-video>
-    　   <video loop autoplay muted src="img/header/sneakers.m4v"></video></div>  
-   
-   
-   
-  <!--PICKUPここから-->
-    <section id ="pick-up">
-      <h1 class="sec-title">PICK UP</h1>
-      <div id="garally">
-        <div class="garally-img"><img src="img/pickup/alexander-rotker-l8p1aWZqHvE-unsplash.jpg" alt="pickup1"></div>
-        <div class="garally-img"><img src="img/pickup/barrett-ward-cOJgO4Zzs-w-unsplash.jpg" alt="pickup2"></div>
-        <div class="garally-img"><img src="img/pickup/chuttersnap-23WUGwMsFH8-unsplash.jpg" alt="pickup3"></div>
-        <div class="garally-img"><img src="img/pickup/daniel-storek-JM-qKEd1GMI-unsplash.jpg" alt="pickup4"></div>
-        <div class="garally-img"><img src="img/pickup/dumbbells-gb18713835_640.jpg" alt="pickup5"></div>
-        <div class="garally-img"><img src="img/pickup/hermes-rivera-OX_en7CXMj4-unsplash.jpg" alt="pickup6"></div>
-        <div class="garally-img"><img src="img/pickup/kris-gerhard-0BKZfcamvGg-unsplash.jpg" alt="pickup7"></div>
-        <div class="garally-img"><img src="img/pickup/sneakers-g0e2140109_640.jpg" alt="pickup8"></div>
-        <div class="garally-img"><img src="img/pickup/shoes-g64e3b3667_640.jpg" alt="pickup9"></div>
+    <header class="cover container">
+       <div class="header">
+          <div class="header_title flex">
+            <h1><a href="#"><img src="images/Kirameki_Card_logo.png" alt="キラメキカードタイトル"></a></h1>
+         <div id="hamburger-button">
+         <!--FontAwesomeでハンバーガーメニューアイコン-->
+          <i class="fas fa-bars hamburger-bars"></i>
+          </div> 
+         <nav class="navi">
+           <ul class="navi-menu flex">
+            <li><a href="#">カード活用方法</a></li>
+            <li><a href="#">ポイントを使う</a></li>
+            <li><a href="#">お問合せ</a></li>
+            <li class="header-button"><a href="#">申し込む <i class="fa-solid fa-angle-right"></i></a></li>
+          </ul>
+        </nav>
+        </div>        
+       <div id="hamburger-menu">
+          <ul id="hamburger-navi-menu">
+            <li><a href="#">カード活用方法</a></li>
+            <li><a href="#">ポイントを使う</a></li>
+            <li><a href="#">お問合せ</a></li>
+          </ul>
+        </div>  
+      </div>
+    <!--ここからメイン-->
+    <section class="main">
+      <div class="contents_width">
+        <h3>ネットショッピング時代の<br class="no_pc">スタンダード</h3>
+        <img src="images/lp6_1.png" alt="クレジットカードの画像">
+        <a href="#" class="sp-button">申し込む <i class="fa-solid fa-angle-right"></i></a>
+        <p class="shadow">キラメキカードは<br class="no_pc">2021最強クレジットカード<br class="no_pc">ランキングNo.1に選ばれました</p>
+      </div>
+    </section> 
+    </header>    
+    <!--ポイントプレゼント-->
+    <section class="point bg_deg container">
+      <div class="contents_width">
+        <h3>新規ご入会＆ご利用で！</h3>
+        <div class="white_box shadow">
+          <div class="box_width">
+              <div class="point_title">
+                <span>最大</span><span>8000</span><span>ポイント</span><br>
+                <span>プレゼント！</span>
+              </div>
+              <span class="kome">※</span>
+              <div class="time flex">
+                <span class="time_title">キャンペーン期間</span><span class="time_day">2021年10月1日〜2022年3月31日</span>
+              </div>
+              <div class="point_text">
+                <p class="kome_before">最大8000ポイントは新規ご入会かつカード発行後1ヶ月以内に3000円以上ご利用いただいた方が対象となります</p>
+                <p>＜ご注意事項＞<br>以下のいずれかに当てはまる場合は対象外になります</p>
+                <p class="point_before">2021年9月30日時点で弊社が指定するカードをお持ちの方</p>
+                <p class="point_before">2019年3月1日以降、新規で弊社が指定するカードを発行した履歴がある方</p>
+              </div>
+          </div>    
+        </div>
+        <button class="main_button shadow">キラメキカードに申し込む<i class="fa-solid fa-angle-right"></i></button>
       </div>
     </section>
-  <!--PICKUPここまで-->   
-  <!--featureここから-->
-    <section id="feature">
-     <h1 class="sec-title">FEATURE</h1>
-      <div id="feature-grid">
-       <div id="feature1">
-         <img class="feature-img" src="img/feature/andres-jasso-PqbL_mxmaUE-unsplash.jpg" alt="feature1">
-         <div class="feature-text">
-           <p class="feature-category">category</p>
-           <p class="feature-discription">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-           <p class="feature-date">xxxx.xx.xx</p>
-         </div>
-       </div>
-       <div id="feature2">
-         <img class="feature-img" src="img/feature/brad-starkey-Bowrbqz1kgw-unsplash.jpg" alt="feature2">
-         <div class="feature-text">
-          <p class="feature-category">category</p>
-          <p class="feature-discription">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-          <p class="feature-date">xxxx.xx.xx</p>
-         </div> 
-       </div>
-       <div id="feature3">
-         <img class="feature-img" src="img/feature/dan-edge-BeZGTKfVEOs-unsplash.jpg" alt="feature3">
-         <div class="feature-text">
-          <p class="feature-category">category</p>
-          <p class="feature-discription">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-          <p class="feature-date">xxxx.xx.xx</p>
-         </div> 
-       </div>
-       <div id="feature4">
-         <img class="feature-img" src="img/feature/erik-mclean-e_qqXYMDyfM-unsplash.jpg" alt="feature4">
-         <div class="feature-text">
-          <p class="feature-category">category</p>
-          <p class="feature-discription">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-          <p class="feature-date">xxxx.xx.xx</p>
-         </div> 
-       </div>      
-       <div id="feature5">
-         <img class="feature-img" src="img/feature/junior-samson-Px3xY9WT0BE-unsplash.jpg" alt="feature5">
-         <div class="feature-text">
-          <p class="feature-category">category</p>
-          <p class="feature-discription">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-          <p class="feature-date">xxxx.xx.xx</p>
-         </div> 
-       </div>     
-       <div id="feature6">
-         <img class="feature-img" src="img/feature/marcel-karg-TDZBCxwuXNo-unsplash.jpg" alt="feature6">
-         <div class="feature-text">
-          <p class="feature-category">category</p>
-          <p class="feature-discription">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-          <p class="feature-date">xxxx.xx.xx</p>
-         </div>
-       </div>
-       <div id="feature7">
-         <img class="feature-img" src="img/feature/pat-kwon-EJTjetc8tPs-unsplash.jpg" alt="feature7">
-         <div class="feature-text">
-          <p class="feature-category">category</p>
-          <p class="feature-discription">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-          <p class="feature-date">xxxx.xx.xx</p>
-         </div>
-       </div>  
-       <div id="feature8">
-         <img class="feature-img" src="img/feature/samuel-lopes-FUR3LNiI2jc-unsplash.jpg" alt="feature8">
-         <div class="feature-text">
-          <p class="feature-category">category</p>
-          <p class="feature-discription">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-          <p class="feature-date">xxxx.xx.xx</p>
-         </div> 
-       </div>       
-       <div id="feature9">
-         <img class="feature-img" src="img/feature/usama-akram-kP6knT7tjn4-unsplash.jpg" alt="feature9">
-         <div class="feature-text">
-          <p class="feature-category">category</p>
-          <p class="feature-discription">テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-          <p class="feature-date">xxxx.xx.xx</p>
-         </div> 
-       </div>  
-     </div>       
-    </section>  
-  <!--featureここまで--> 
-  <!--contactここから-->   
-   <section id="contact">
-    <h1 class="sec-title">CONTACT</h1>
-      <div id="contact-main">
-        <div class="contact-discription">
-          <p>テキストテキストテキスト</p>
-          <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-          <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+    <!--特典・サービス-->
+    <section class="service bg_deg2 container">
+      <div class="contents_width">
+        <h3>特典・サービス</h3>   
+        <div class="demo_box">
+            <div class="demo_itemL left1">年会費</div>
+            <div class="demo_itemR right1"><div><span class="upper">1,100円（税込）</span><br>年間30万円のご利用で<span class="red">翌年度無料</span><span class="small kome_1">※1</span></div></div>
+            
+            <div class="demo_itemL">ポイント還元</div>
+            <div class="demo_itemR itemR2"><div>最大<span class="red big">5</span>%<span class="small">※2</span></div></div>
+        
+            <div class="demo_itemL left3">継続特典</div>
+            <div class="demo_itemR itemR2"><div><span class="regular upper">年間30万円のご利用でもれなく</span><br><span class="red big bold">5000</span>ポイント還元<span class="small">※1</span></div></div>
+
+            <div class="demo_itemL left2">付帯サービス</div>
+            <div class="demo_itemR right2"><div><span class="regular upper2">海外旅行障害保険</span><br>最高<span class="red big bold">2000</span>万円</div></div>
         </div>
-        <div class="contact-form">
-           <div class="contact-name"> 
-             <label for="name">Name:</label>
-             <input type="text" id="name">
-           </div>
-           <div class="contact-mail"> 
-             <label for="email">Mail:</label>
-             <input type="email" id="email">
-           </div>
-           <div class="contact-text"> 
-             <label for="text">Messege:</label>
-             <input type="text" id="text">
-           </div> 
-           <button>SEND</button>
-         </div> 
-       </div>  
-   </section>
-  <!--contactここまで-->  
-  </main>
-  <!--footerここから--> 
-  　<footer>
-　  　<p>©Sneakers</p>
-  　</footer>
-  <!--footerここまで-->    
-  
- </body>
+
+        <p><span>※1</span>対象取引や算定期間等の実際の適用条件などの詳細は規約をご確認ください。</p>      
+        <p><span>※2</span>一部ポイント加算対象とならない店舗および指定のポイント還元率にならない場合があります。ポイント還元率は利用金額に対する獲得ポイントを示したもので、ポイントの交換方法によっては、1ポイント1円相当にならない場合がございます。</p>            
+        <button class="main_button shadow">キラメキカードに申し込む<i class="fa-solid fa-angle-right"></i></button>
+      </div>
+    </section>  
+    <!--カード発行までの流れ-->
+    <section class="card bg_deg3 container">
+      <div>
+        <h3>カード発行までの流れ</h3>    
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="swiper-text shadow">
+                <span>01</span>
+                <p>カードお申し込み</p>
+              </div>  
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-text shadow">
+                <span>02</span>
+                <p>入会審査・カード発行</p>
+              </div>  
+            </div>  
+            <div class="swiper-slide">
+              <div class="swiper-text shadow">            
+                <span>03</span>
+                <p>カード到着</p>
+              </div>    
+            </div>    
+            <div class="swiper-slide">
+              <div class="swiper-text shadow">                
+                <span>04</span>
+                <p>アプリをダウンロード</p>
+              </div>  
+            </div>     
+            <div class="swiper-slide">
+              <div class="swiper-text shadow">               
+                <span>05</span>
+                <p>アプリでカード番号を確認</p>
+              </div>  
+            </div>              
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"><i class="fa-solid fa-chevron-left"></i></div>
+          <div class="swiper-button-next"><i class="fa-solid fa-chevron-right"></i></div>
+        </div>
+      </div>
+    </section>    
+    <!--他の特典・サービス-->
+    <section class="other bg_deg5 container">
+      <div class="contents_width">
+        <h3>他にも<br class="no_pc">特典・サービスがたくさん</h3>  
+          <div class="other_acd">
+            <dl class="first open">
+              <dt class="shadow">国内も、海外も。<br class="no_pc">最高2,000万円の旅行傷害保険</dt>
+              <dd>最高2,000万円の旅行傷害保険<br>海外・国内最高2,000万円の旅行傷害保険が付帯されます。<br class="no_pc">（一部利用条件あり）</dd>
+            </dl>  
+            <dl class="open">
+              <dt class="shadow">年間300万円までの<br class="no_pc">お買物安心保険</dt>
+              <dd>キラメキクレジットカードで決済して購入した商品が壊れたり、盗まれたりしたときに安心の保険サービスです。 保険料のお支払いや事前のお届けは必要ございません。</dd>
+            </dl>          
+            <dl class="open">
+              <dt class="shadow">国内空港ラウンジサービスが<br class="no_pc">無料</dt>
+              <dd>国内主要空港のラウンジを無料でご利用いただくことが可能です。</dd>
+            </dl>          
+             <dl class="open">
+              <dt class="dt4 shadow">海外Wi-Fi無料レンタル</dt>
+              <dd>海外でご利用いただけるポータブルWi-Fiを無料でレンタルすることが可能です。</dd>
+            </dl>     
+             <dl class="open">
+              <dt class="shadow">24時間対応の<br class="no_pc">紛失受付センター</dt>
+              <dd>紛失したカードの利用停止と再発行のお手続きをWebと電話から同時に行うことが可能です。</dd>
+            </dl> 
+          </div>  
+      </div>
+    </section>  
+    <!--基本情報-->
+    <section class="infomation container">
+      <div class="contents_width">
+        <h3>基本情報</h3>      
+        <table>
+          <tr>
+            <td class="info_title">名称</td>
+            <td class="info_text">キラメキクレジットカード</td>
+          </tr>
+          <tr>
+            <td class="info_title">発行ブランド</td>
+            <td class="info_text">AAAAA / BBBBB</td>
+          </tr>          
+           <tr>
+            <td class="info_title">入会対象者</td>
+            <td class="info_text">満20歳以上で、ご本人に安定継続収入のある方</td>
+          </tr>   
+           <tr>
+            <td class="info_title info_year">年会費</td>
+            <td class="info_text member">
+              <p>＜本会員＞</p>
+              <div>
+                <p>通常　1100円（税込）</p>
+              　<p class="info-small">※年間30万円のご利用で翌年の年会費無料</p>
+              　<p class="family">＜家族会員＞</p>
+              　<p>無料（人数制限なし）</p>
+              </div>　
+            </td>
+          </tr>  
+          <tr>
+            <td class="info_title">ポイント</td>
+            <td class="info_text">カード利用金額 200円（税込）ご利用で1ポイント</td>
+          </tr>         
+          <tr>
+            <td class="info_title">旅行傷害保険</td>
+            <td class="info_text info_text6">
+              <p>最高2,000万円の海外・国内旅行傷害保険</p>
+            　<p class="info-small kome_before2 no6">傷害死亡・後遺障害補償は、事前の旅費などの当該カードでのクレジット決済有無により最高補償額が異なります。</p>
+            </td>
+          </tr>         
+          <tr>
+            <td class="info_title">ショッピング補償</td>
+            <td class="info_text">
+              <p>年間300万円までのお買物安心保険</p>
+            　<p class="info-small kome_before2 no7">一部補償の対象とならない商品・損害がございます</p>
+            </td>
+          </tr>              
+        </table>
+      </div>
+    </section>
+    <!--ポイントプレゼント-->
+    <section class="point point2 bg_deg container">
+      <div class="contents_width">
+        <h3>新規ご入会＆ご利用で！</h3>
+        <div class="white_box sp-shadow">
+          <div class="box_width">
+              <div class="point_title">
+                <span>最大</span><span>8000</span><span>ポイント</span><br>
+                <span class="present">プレゼント！</span>
+              </div>
+              <span class="kome">※</span>
+              <div class="time flex">
+                <span class="time_title">キャンペーン期間</span><span class="time_day">2021年10月1日〜2022年3月31日</span>
+              </div>
+              <div class="point_text">
+                <p class="kome_before">最大8000ポイントは新規ご入会かつカード発行後1ヶ月以内に3000円以上ご利用いただいた方が対象となります</p>
+                <p>＜ご注意事項＞<br>以下のいずれかに当てはまる場合は対象外になります</p>
+                <p class="point_before">2021年9月30日時点で弊社が指定するカードをお持ちの方</p>
+                <p class="point_before">2019年3月1日以降、新規で弊社が指定するカードを発行した履歴がある方</p>
+              </div>
+          </div>    
+        </div>
+        <button class="main_button shadow">キラメキカードに申し込む<i class="fa-solid fa-angle-right"></i></button>
+      </div>
+    </section>
+    <footer class="bg_deg4">
+      <div class="contents_width">
+        <figure><img src="images/Kirameki_Card_logo.jpg" alt="フッタータイトル"></figure>
+        <p>© 2004-2021 Kirameki Card Co. Ltd. All Rights Reserved.</p>
+      </div>  
+    </footer>
+  <!--jsファイルの読み込み-->
+  <script src="assets/jquery/jquery-3.6.0.min.js"></script>
+  <script src="assets/jquery/jquery-migrate-3.3.2.min.js"></script>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+
+  </body>
 </html>
